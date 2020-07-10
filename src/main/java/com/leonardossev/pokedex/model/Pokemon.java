@@ -19,6 +19,14 @@ public class Pokemon {
 
     private Double weight;
 
+    public Pokemon(String id, String name, String category, String ability, Double weight) {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.ability = ability;
+        this.weight = weight;
+    }
+
     public String getId() {
         return id;
     }
